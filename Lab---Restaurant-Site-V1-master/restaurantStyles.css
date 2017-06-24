@@ -1,0 +1,44 @@
+div.header{
+    font-style: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: darkgoldenrod;
+}
+a:hover{
+    font-weight: bold;
+    color: pink;
+}
+div.footer{
+     font-family: cursive;
+}
+h1{
+    font-family: "Lucida Console"
+}
+div.menuback {
+    background-color: lightgoldenrodyellow;
+}
+div.homeback{
+    background-color: aquamarine;
+}
+blockquote.blockback{
+    background-color: aquamarine;
+}
+div.textContainter{
+    background-color: aquamarine;
+}
+table.drinks{
+    width: 100%;
+    background-color: lightblue;
+}
+th{
+    height: 50px;
+}
+table.drinks,th.drinks,td.drinks{
+    padding:5px 0px 50px 10px;
+}
+.under{
+    text-decoration: underline;
+}

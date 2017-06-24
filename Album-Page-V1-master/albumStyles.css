@@ -1,0 +1,38 @@
+a:link {
+	text-decoration: none;
+	  color: plum;
+	}
+
+	a:visited {
+		color:darkcyan;
+	}
+	a:hover {
+	 text-decoration: underline;
+	 background-color:pink; 
+	 font-family: fantasy;
+    }
+    a:active {
+		font-weight:bold;
+    }
+		h1{
+			font-family: fantasy;
+		}
+		h2.diffh2{
+			font-family: fantasy;
+		}
+.backimage{
+	background-image: url('Image/American Teen.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 250px,100px;
+	height: 300px;
+}
+.names{
+	font-style: italic;
+}
+#tracks{
+background-color: lightcoral;
+}
+td{
+	font-style: italic;
+}
