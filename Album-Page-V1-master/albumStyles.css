@@ -20,13 +20,6 @@ a:link {
 		h2.diffh2{
 			font-family: fantasy;
 		}
-.backimage{
-	background-image: url('Image/American Teen.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 250px,100px;
-	height: 300px;
-}
 .names{
 	font-style: italic;
 }
@@ -35,4 +28,13 @@ background-color: lightcoral;
 }
 td{
 	font-style: italic;
+}
+.container {
+	 padding-right: 150px;
+  padding-left: 150px;
+  margin-right: 150px;
+  margin-left: 300px;
+}
+div.table-responsive{
+	width: 100%;
 }
