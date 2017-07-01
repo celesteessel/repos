@@ -42,3 +42,6 @@ table.drinks,th.drinks,td.drinks{
 .under{
     text-decoration: underline;
 }
+div.thead{
+    text-align: center;
+}
