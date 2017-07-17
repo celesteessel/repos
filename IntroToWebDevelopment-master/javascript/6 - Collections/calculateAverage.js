@@ -22,4 +22,20 @@ function calculateAverageTemp(temperatureArray){
 
 // Let's write out the average 
 console.log("Cleveland's average temperature is: ");
-console.log(calculateAverageTemp(averageTemps));
+console.log(calculateAverageTemp(averageTemps));alculateAverageTemp(averageTemps));alculateAverageTemp(averageTemps));
+    // We calculate the sum by looping through the array
+    // updating the total as we go
+    for (var tempPosition=0; tempPosition < temperatureArray.length; tempPosition++){
+        // Using the unary += is a shorthand of saying
+        // sumOfTemperatures = sumOfTemperatures + averageTemps[tempPosition]
+        sumOfTemperatures += temperatureArray[tempPosition];
+    }
+
+    // The number of temperatures is the length of the array.
+    return sumOfTemperatures / temperatureArray.length;
+
+}
+
+// Let's write out the average 
+console.log("Cleveland's average temperature is: ");
+console.log(calculateAverageTemp(averageTemps));alculateAverageTemp(averageTemps));alculateAverageTemp(averageTemps));
